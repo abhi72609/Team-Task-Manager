@@ -44,14 +44,3 @@ const ProjectSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model("Project", ProjectSchema);
-
-
-// const mongoose = require('mongoose');
-
-// const ProjectSchema = new mongoose.Schema({
-//   name: { type: String, required: true },
-//   description: { type: String },
-//   createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
-// }, { timestamps: true });
-
-// module.exports = mongoose.model('Project', ProjectSchema);
