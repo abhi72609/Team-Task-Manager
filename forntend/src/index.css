@@ -154,3 +154,25 @@ button:hover {
     flex-direction: column;
   }
 }
+
+
+
+
+
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-form input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.project-form button {
+  padding: 10px 20px;
+}
